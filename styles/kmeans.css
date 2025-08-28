@@ -1,0 +1,102 @@
+#home_button{
+    position: absolute;
+    top: 1vw;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    font: 2vw serif;
+    border: 2px solid black;
+    text-align: center;
+    padding: 1vw;
+}
+
+#home_button:hover {
+    background-color: black;
+    color: white;
+}
+
+#title{
+    position: absolute;
+    top: 8vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80vw;
+    font: 4vw serif;
+    text-align: center;
+
+}
+
+#github_logo{
+    position: absolute;
+    width: 13vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 14vw;
+    
+}
+
+#map{
+    position: absolute;
+    top: 20vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80vw;
+    height: 50vw;
+    border: 2px solid black;
+}
+
+#legend{
+    position: absolute;
+    top:73vw;
+    left:50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#legend_title{
+    align-self: center;
+    margin-top:1vw;
+    font-weight: bold;
+}
+
+.legend_item{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-left:  1vw;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+.legend_box{
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid black;
+}
+
+#box_one{
+    background-color: blue;
+}
+
+#box_two{
+    background-color: red;
+}
+
+#box_three{
+    background-color: pink;
+}
+
+#box_four{
+    background-color: cyan;
+}
+
+
+.legend_labels{
+    font: 1.5vw serif;
+}
